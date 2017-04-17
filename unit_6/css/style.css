@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Arima+Madurai:100|BioRhyme:300');
-
+* { margin:0; padding:0; box-sizing:border-box;}
 body {
 	text-align: center;
-	color: #a3abb7;
+	color: rgba(0,0,0,.5);
 	font-family: 'BioRhyme', serif;
 	font-size: 22px;
-	background: url("../images/sail.jpg");
-	background-size: cover;
-  }
+}
  header {
  	background-color: #FFED74;
  }
   nav {
-  	text-align: right;
-  	margin-right: 40px;
-  	padding: 40px;
+  	float: right;
   	font-family: 'BioRhyme', serif;
   	font-size: 18px;
   	word-spacing: 2em;
-  	background-color: #E8C66A;
+  }
+  nav a {
+  	color:inherit;
+  	display:inline-block;
+  	padding:1em;
   }
   section {
   	background-color: #FFE2B8;
   }
   article {
-  	background-color: #E89C6C;
+  	/* background-color: #E89C6C; */
   }
   h1 {
   	font-size: 24px;
@@ -55,14 +55,14 @@ body {
   }
 
   a {
-  	color: inherit;
+  	color: #fff;
   	text-decoration: none;
   }
 
   .wrapper {
  	margin: 0 auto;
- 	width: 1140px;
-  }
+ 	width: 1200px;
+ 	}
 
   .line1 {
   	font-weight: normal;
@@ -78,10 +78,10 @@ body {
   .shortpages {
 	padding-top: 30px;
 	padding-bottom: 30px;
-  	width: 900px;
-  	margin: 2em auto;
-  	clear: both;
-  }
+	/* width: 900px; */
+	margin: 2em auto;
+	clear: both;
+	}
 
   .pagetitles {
   	letter-spacing: .1em;
@@ -99,12 +99,18 @@ body {
 
   .featcont	{
   	background: purple;
-    margin: 20px 20px;
-    width: 300px;
-    padding: 20px;
-    float: left;
+  	margin: 1%;
+  	width: 31.33%;
+  	padding: 2em 0;
+  	float: left;
+  	text-align: center;
   }
-
+#intro {
+	background: url("../images/sail.jpg");
+	background-size: cover;
+	height: 100vh;
+	padding: 8em 0 0;
+}
 #slogan {
 	padding: 30px 30px;
 	display: inline-block;
@@ -120,12 +126,16 @@ body {
   	background-color: rgba(255,255,255,.5);
   	padding: 10px;
   	margin: 10px;
+  	display: inline-block;
+  	color: inherit;
   }
 
    #featured {
    	padding-top: 75px;
-   	width: 1200px auto;
+   	width: 1200px;
    	text-align: center;
+   	margin: auto;
+   	/* background: none; */
    }
 
   footer {
@@ -133,3 +143,10 @@ body {
   	font-family: 'BioRhyme', serif;
   	background-color: #FF957E;
   }
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
