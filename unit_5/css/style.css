@@ -59,6 +59,11 @@ body {
   	text-decoration: none;
   }
 
+  .wrapper {
+ 	margin: 0 auto;
+ 	width: 1140px;
+  }
+
   .line1 {
   	font-weight: normal;
   	padding: 0px;
@@ -75,6 +80,7 @@ body {
 	padding-bottom: 30px;
   	width: 900px;
   	margin: 2em auto;
+  	clear: both;
   }
 
   .pagetitles {
@@ -93,9 +99,10 @@ body {
 
   .featcont	{
   	background: purple;
-    margin: 20px auto;
+    margin: 20px 20px;
     width: 300px;
     padding: 20px;
+    float: left;
   }
 
 #slogan {
@@ -117,6 +124,8 @@ body {
 
    #featured {
    	padding-top: 75px;
+   	width: 1200px auto;
+   	text-align: center;
    }
 
   footer {
