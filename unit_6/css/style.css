@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:100|BioRhyme:300');
+
+body {
+	text-align: center;
+	color: #a3abb7;
+	font-family: 'BioRhyme', serif;
+	font-size: 22px;
+	background: url("../images/sail.jpg");
+	background-size: cover;
+  }
+ header {
+ 	background-color: #FFED74;
+ }
+  nav {
+  	text-align: right;
+  	margin-right: 40px;
+  	padding: 40px;
+  	font-family: 'BioRhyme', serif;
+  	font-size: 18px;
+  	word-spacing: 2em;
+  	background-color: #E8C66A;
+  }
+  section {
+  	background-color: #FFE2B8;
+  }
+  article {
+  	background-color: #E89C6C;
+  }
+  h1 {
+  	font-size: 24px;
+  	font-weight: normal;
+  	font-family: 'BioRhyme', serif;
+  	letter-spacing: .2em;
+  }
+
+  h2 {
+  	font-size: 24px;
+  	font-weight: normal;
+  	font-family: 'BioRhyme', serif;
+  	letter-spacing: .2em;
+  }
+
+  h3 {
+  	font-size: 32px;
+  	font-weight: 400;
+  	padding-top: 50px;
+  	font-family: 'Arima Madurai', cursive;
+  }
+
+  p {
+  	font-size: 22px;
+  	padding-top: 25px;
+  	font-family: 'BioRhyme', serif;
+  	line-height: 1.2em;
+  }
+
+  a {
+  	color: inherit;
+  	text-decoration: none;
+  }
+
+  .wrapper {
+ 	margin: 0 auto;
+ 	width: 1140px;
+  }
+
+  .line1 {
+  	font-weight: normal;
+  	padding: 0px;
+  	margin: 0px;
+  }
+
+  .line2 {
+  	padding: 0px;
+  	margin: 0px;
+  }
+
+  .shortpages {
+	padding-top: 30px;
+	padding-bottom: 30px;
+  	width: 900px;
+  	margin: 2em auto;
+  	clear: both;
+  }
+
+  .pagetitles {
+  	letter-spacing: .1em;
+  	padding-top: 0px;
+}
+
+  .logo {
+	font-size: 48px;
+  	font-weight: 100;
+  	font-family: 'Arima Madurai', cursive;
+  	letter-spacing: .25em;
+  	padding-bottom: 15px;
+  	line-height: 1em;
+  }
+
+  .featcont	{
+  	background: purple;
+    margin: 20px 20px;
+    width: 300px;
+    padding: 20px;
+    float: left;
+  }
+
+#slogan {
+	padding: 30px 30px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+  .CTAs {
+  	font-family: 'Arima Madurai', cursive;
+  	font-size: 24px;
+  	font-weight: 600;
+  	letter-spacing: .1em;
+  	background-color: rgba(255,255,255,.5);
+  	padding: 10px;
+  	margin: 10px;
+  }
+
+   #featured {
+   	padding-top: 75px;
+   	width: 1200px auto;
+   	text-align: center;
+   }
+
+  footer {
+  	padding: 20px;
+  	font-family: 'BioRhyme', serif;
+  	background-color: #FF957E;
+  }
