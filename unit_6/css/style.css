@@ -21,7 +21,7 @@ body {
   	padding:1em;
   }
   section {
-  	background-color: #FFE2B8;
+  	/*background-color: #FFE2B8;*/
   }
   article {
   	/* background-color: #E89C6C; */
@@ -38,18 +38,19 @@ body {
   	font-weight: normal;
   	font-family: 'BioRhyme', serif;
   	letter-spacing: .2em;
+    padding-bottom: 20px;
   }
 
   h3 {
   	font-size: 32px;
   	font-weight: 400;
-  	padding-top: 50px;
+  	/*padding-top: 50px;*/
   	font-family: 'Arima Madurai', cursive;
   }
 
   p {
   	font-size: 22px;
-  	padding-top: 25px;
+/*  	padding-top: 25px;*/
   	font-family: 'BioRhyme', serif;
   	line-height: 1.2em;
   }
@@ -59,9 +60,13 @@ body {
   	text-decoration: none;
   }
 
+img {
+  width: 100%;
+}
+
   .wrapper {
  	margin: 0 auto;
- 	width: 1200px;
+ 	width: 1000px;
  	}
 
   .line1 {
@@ -83,10 +88,10 @@ body {
 	clear: both;
 	}
 
-  .pagetitles {
+/*  .pagetitles {
   	letter-spacing: .1em;
-  	padding-top: 0px;
-}
+  	padding: 20px 0 20px 0;
+}*/
 
   .logo {
 	font-size: 48px;
@@ -95,16 +100,27 @@ body {
   	letter-spacing: .25em;
   	padding-bottom: 15px;
   	line-height: 1em;
+    margin-top: 50px;
   }
 
-  .featcont	{
-  	background: purple;
+.tri_col	{
+  	background: rgb(184, 206, 242);
   	margin: 1%;
   	width: 31.33%;
-  	padding: 2em 0;
+  	padding-bottom: 1em;
   	float: left;
   	text-align: center;
   }
+
+/*.pf_thumb {
+    background: pink;
+    margin: 1.67%;
+    width: 29%;
+    padding-bottom: 1em;
+    float: left;
+    text-align: center;
+  }*/
+
 #intro {
 	background: url("../images/sail.jpg");
 	background-size: cover;
@@ -112,41 +128,70 @@ body {
 	padding: 8em 0 0;
 }
 #slogan {
-	padding: 30px 30px;
+	padding: 20px 30px;
 	display: inline-block;
 	margin: 0 auto;
-	margin-bottom: 20px;
+	margin: 50px 0 150px 0;
 }
-
   .CTAs {
   	font-family: 'Arima Madurai', cursive;
   	font-size: 24px;
   	font-weight: 600;
   	letter-spacing: .1em;
   	background-color: rgba(255,255,255,.5);
-  	padding: 10px;
-  	margin: 10px;
+  	padding: 5px;
+  	margin: 5px;
   	display: inline-block;
   	color: inherit;
   }
+.ital {
+  font-style: italic;
+}
+
+.left_align{
+  text-align: left;
+}
 
    #featured {
    	padding-top: 75px;
-   	width: 1200px;
    	text-align: center;
    	margin: auto;
    	/* background: none; */
    }
-
-  footer {
+footer {
   	padding: 20px;
   	font-family: 'BioRhyme', serif;
-  	background-color: #FF957E;
+  	background-color: none;
   }
+
 .clearfix:after { 
-	content: "."; 
+	content: " "; 
 	visibility: hidden; 
 	display: block; 
 	height: 0; 
 	clear: both;
+  font-size: 0;
+}
+
+#two_column {
+    background-color: none;
+    padding: 20px;
+}
+
+#left {
+    background-color: none;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: none;
+    padding: 20px;
+    float: right;
+    width: 65%;
+}
+
+.small_font {
+  font-size: 14px;
 }
