@@ -12,7 +12,7 @@ body {
   nav {
   	float: right;
   	font-family: 'BioRhyme', serif;
-  	font-size: 18px;
+  	font-size: .8181em;
   	word-spacing: 2em;
   }
   nav a {
@@ -27,29 +27,29 @@ body {
   	/* background-color: #E89C6C; */
   }
   h1 {
-  	font-size: 24px;
+  	font-size: 1.0909em;
   	font-weight: normal;
   	font-family: 'BioRhyme', serif;
   	letter-spacing: .2em;
   }
 
   h2 {
-  	font-size: 24px;
+  	font-size: 1.0909em;
   	font-weight: normal;
   	font-family: 'BioRhyme', serif;
   	letter-spacing: .2em;
-    padding-bottom: 20px;
+    padding-bottom: 2%;
   }
 
   h3 {
-  	font-size: 32px;
+  	font-size: 1.4545em;
   	font-weight: 400;
   	/*padding-top: 50px;*/
   	font-family: 'Arima Madurai', cursive;
   }
 
   p {
-  	font-size: 22px;
+  	font-size: 1em;
 /*  	padding-top: 25px;*/
   	font-family: 'BioRhyme', serif;
   	line-height: 1.2em;
@@ -71,36 +71,30 @@ img {
 
   .line1 {
   	font-weight: normal;
-  	padding: 0px;
-  	margin: 0px;
+  	padding: 0%/*px*/;
+  	margin: 0%/*px*/;
   }
 
   .line2 {
-  	padding: 0px;
-  	margin: 0px;
+  	padding: 0%/*px*/;
+  	margin: 0%/*px*/;
   }
 
   .shortpages {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	/* width: 900px; */
+	padding-top: 3%/*0px*/;
+	padding-bottom: 3%/*0px*/;
 	margin: 2em auto;
 	clear: both;
 	}
 
-/*  .pagetitles {
-  	letter-spacing: .1em;
-  	padding: 20px 0 20px 0;
-}*/
-
   .logo {
-	font-size: 48px;
+	font-size: 2.1818em;
   	font-weight: 100;
   	font-family: 'Arima Madurai', cursive;
   	letter-spacing: .25em;
-  	padding-bottom: 15px;
+  	padding-bottom: 1.5%;
   	line-height: 1em;
-    margin-top: 50px;
+    margin-top: 4%;
   }
 
 .tri_col	{
@@ -112,15 +106,6 @@ img {
   	text-align: center;
   }
 
-/*.pf_thumb {
-    background: pink;
-    margin: 1.67%;
-    width: 29%;
-    padding-bottom: 1em;
-    float: left;
-    text-align: center;
-  }*/
-
 #intro {
 	background: url("../images/sail.jpg");
 	background-size: cover;
@@ -128,19 +113,19 @@ img {
 	padding: 8em 0 0;
 }
 #slogan {
-	padding: 20px 30px;
+/*	padding: 2px 3px;*/
 	display: inline-block;
 	margin: 0 auto;
-	margin: 50px 0 150px 0;
+	margin: 3% 0 9% 0;
 }
   .CTAs {
   	font-family: 'Arima Madurai', cursive;
-  	font-size: 24px;
+  	font-size: 1.0909em;
   	font-weight: 600;
   	letter-spacing: .1em;
   	background-color: rgba(255,255,255,.5);
-  	padding: 5px;
-  	margin: 5px;
+  	padding: 1.66%;
+  	margin: 1.66%;
   	display: inline-block;
   	color: inherit;
   }
@@ -153,13 +138,13 @@ img {
 }
 
    #featured {
-   	padding-top: 75px;
+   	padding-top: 4.5%;
    	text-align: center;
    	margin: auto;
    	/* background: none; */
    }
 footer {
-  	padding: 20px;
+  	padding: 20%;
   	font-family: 'BioRhyme', serif;
   	background-color: none;
   }
@@ -175,34 +160,39 @@ footer {
 
 #two_column {
     background-color: none;
-    padding: 20px;
+    padding: 2%;
 }
 
 #left {
     background-color: none;
-    padding: 20px;
+    padding: 2%;
     float: left;
     width: 30%;
 }
 
 #right {
     background-color: none;
-    padding: 20px;
+    padding: 2%;
     float: right;
     width: 65%;
 }
 
 .small_font {
-  font-size: 14px;
+  font-size: .6363em;
 }
 
 .p_link {
   color: rgb(59, 100, 165);
 }
 
-@media only screen and (max-width: 300px) {
-  #featured {
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  #two_column, .tri_col {
     float: none;
     width: auto;
   }
 }
+
